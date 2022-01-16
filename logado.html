@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logado</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Shizuru&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="conteudoprincipal__cabecalho">
+        <h1>Psico</h1>
+    </header>
+    <main class="conteudoprincipal__">
+        <div class="conteudoprincipal__container">
+            <section class="conteudoprincipal__perfil">
+                <div class="perfil__foto">
+                    
+                    <img src="/img/perfil.png" alt="foto de perfil">
+                    
+                </div>
+            </section>
+            <section class="conteudoprincipal__proximaConsulta">
+               
+            </section>
+            <section class="conteudoprincipal__botoes">
+                <nav>
+                    <ul>
+                        <li onclick="consulta()">Acessar consulta</li>
+                        <li onclick="mensagemInd()">Desmarcar consulta</li>
+                        <li onclick="mensagemInd()">Agendar consulta</li>
+                        <li onclick="mensagemInd()">Minhas anotações</li>
+                        <li onclick="mensagemInd()">Testes/exames</li>
+                        <li onclick="mensagemInd()">Receitas</li>
+                        <li onclick="mensagemInd()">Conteúdos extras</li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="conteudoprincipal__logout">
+                <button class="logout__botao" onclick="logout()"><a id="logout" href="index.html">Sair</a></button>
+            </section>
+            <a class="logout__ajuda" href = "#" onclick="suporte()">Precisa de ajuda?</a>
+
+        </div>
+    </main>
+    
+</body>
+<script src="logado.js"></script>
+</html>

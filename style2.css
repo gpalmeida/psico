@@ -1,0 +1,89 @@
+body{background-color: #5dbcf3;}
+.conteudoprincipal__cabecalho{
+    background-color: #46bbffe7; 
+    height: 55px;
+    border-bottom: 2px solid white;}
+.conteudoprincipal__cabecalho h1{
+    color: #fff4f4; 
+    padding: 10px; 
+    font-size: 38px;
+    text-align: center;
+    font-family: 'Shizuru', cursive;
+    max-width: 100%;
+}
+.conteudoprincipal__{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.conteudoprincipal__container{max-width: 1300px;}
+.conteudoprincipal__perfil{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;}
+.perfil__foto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: none;
+}
+
+
+.conteudoprincipal__botoes nav{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudoprincipal__botoes ul{
+    display: flex; 
+    flex-wrap: wrap;
+    width: 380px;
+    height: 165px; 
+    border: 2px white solid;
+    border-radius: 30px;
+    font-family: 'Abel', sans-serif
+}
+.conteudoprincipal__botoes li{  
+    background-color: aliceblue;
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 5px 5px;
+    font-family: 'Abel', sans-serif
+}
+.conteudoprincipal__botoes li:hover{
+    background-color: #231ef2; 
+    color:white; 
+    font-family: 'Abel', sans-serif}
+.conteudoprincipal__logout{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;}
+.logout__botao{
+    background-color: #231ef2;
+    width: 70px;
+    height: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.logout__ajuda{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+#logout{
+    text-decoration: none; 
+    color:white
+}
+#logout:hover{color:red}
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Psico login Psicólogo</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Shizuru&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="conteudoprincipal__cabecalho">
+    <h1>Psico</h1>
+    
+  </header>
+    <main class="conteudoprincipal">
+                
+
+        <div class="container">
+            <section class="login">
+                    <Form method="GET">
+                        
+                     <Label><img src="/img/aaa.png" alt="e-mail"> Login/e-mail:</Label>
+                     <input type="email" placeholder="Login/e-mail">
+                     
+                     <label>Senha:</label>
+                     <input type="password" placeholder="Senha">
+                     <button type="submit" class="entrar" onclick="construindo()">Entrar</button>
+                    </Form>
+                    <a class="login__recuperarsenha" href="#" onclick="recuperarSenha()">Esqueceu sua senha?</a> 
+            </section>
+
+        </div>
+
+    </main>
+ 
+  
+</body>
+<script>
+  function construindo(){alert("No momento a página está em manutenção, tente novamente mais tarde.")}
+  function recuperarSenha(){window.prompt("Digite o seu e-mail para recuperação e aguarde o recebimento do link em até 2 horas por e-mail.")}
+</script>
+</html>
